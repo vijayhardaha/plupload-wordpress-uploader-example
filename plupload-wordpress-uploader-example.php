@@ -204,9 +204,6 @@ function plupload_wordpress_uploader_fetch_action() {
 		if ( 'attachment' !== $post->post_type ) {
 			wp_die( esc_html__( 'Invalid post type.' ) );
 		}
-		if ( ! current_user_can( 'edit_post', $id ) ) {
-			wp_die( esc_html__( 'Sorry, you are not allowed to edit this item.' ) );
-		}
 		$thumb_url = wp_get_attachment_image_src( $id, 'medium', true );
 		if ( $thumb_url ) {
 			$width       = $thumb_url[1];
