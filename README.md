@@ -1,6 +1,6 @@
 # Plupload WordPress Uploader Example
 
-This is a custom plugin with custom Plupload Drag &amp; Drop uploader with Wordpress. You can use this example code into your custom plugin or themese. It's generally useful when you have frontend bulk upload and you don't wanna use Wordpress Media Library for bulk upload and wanna go with your upload method using chuck system.
+This is a custom plugin with a custom Plupload Drag & Drop uploader with WordPress. You can use this example code into your custom plugin or themes. It's generally useful when you have frontend bulk upload and you don't wanna use WordPress Media Library for bulk upload and wanna go with your upload method using chuck system.
 
 ### Installation
 Download the plugin repo zip and install in your WordPress website. If you don't know how to style plugin manually on WordPress website, then [instructions how to install plugin manully available here](https://wordpress.org/support/article/managing-plugins/#manual-plugin-installation).
